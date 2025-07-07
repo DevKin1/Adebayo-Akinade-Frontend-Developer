@@ -1,0 +1,614 @@
+/* colors */
+/* Primary-color: #ffff */
+/* secondary-color: rgb(238, 199, 128); */
+/* territial-color: #081b29 */
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    z-index: 100;
+    background: #1d547a;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+}
+
+.navbar a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: 500ms;
+    
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(238, 199, 128);;
+    border-color: steelblue;
+}
+
+/* icons */
+.icons i{
+    padding-right: 10px;
+}
+.fa-instagram,
+.fa-linkedin,
+.fa-x-twitter{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.fa-instagram:active{
+    color: rgb(238, 199, 128);;
+}
+.fa-linkedin:active{
+    color: rgb(238, 199, 128);;
+}
+.fa-x-twitter:active{
+    color: rgb(238, 199, 128);;
+}
+main{
+    background: #081b29;
+    height: 100%;
+}
+
+.webpage-one{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.User{
+    color: skyblue;
+    font-size: 37px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content{
+    padding-right: 100px;
+}
+.content p{
+    width: 100%;
+    max-width: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.7em;
+}
+
+.content h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    color: rgb(238, 199, 128);
+    padding: 9px 0 8px 0;
+}
+
+.btn-Hire{
+    border: 2px solid rgb(82, 150, 177);
+    background-color: transparent;
+    width: 100%;
+    max-width: 120px;
+    height: 6vh;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-right: 10px;
+    transition: 900ms;
+}
+
+.btn-Hire:hover{
+    box-shadow: 0 0 10px;
+}
+
+.btn-talk{
+    border: 2px solid rgb(82, 150, 177);
+    background: transparent ;
+    width: 100%;
+    max-width: 120px;
+    height: 6vh;
+    border-radius: 4px;
+    font-size: 15px;
+    color: rgb(82, 150, 177);
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    margin-top: 16px;
+    transition: 900ms;
+}
+
+.btn-talk:hover{
+   box-shadow: 0 0 10px;
+    color: white;
+}
+
+#box img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 8px 8px 8px 10px;
+}
+
+#box{
+    border: 1px solid skyblue;
+    background: transparent;
+    width: 100%;
+    margin-bottom: 80px;
+    max-width: 320px;
+    box-shadow: 0 0 19px skyblue;
+}
+
+/* skills */
+.field-section h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(238, 199, 128);
+}
+.field-section p{
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+/* html */
+.html h4{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: serif;
+    letter-spacing: 0.1rem;
+}
+.html-icon{
+    max-width: 150px;
+    border-radius: 100px;
+    background: #ffffff27;
+}
+.html-icon img{
+    border-radius: 100px;
+    max-width: 90px;
+    padding: 30px 30px 30px 30px;
+}
+
+/* css */
+.css-icon{
+    max-width: 150px;
+    border-radius: 100px;
+    background: #ffffff27;
+}
+.css-icon img{
+    border-radius: 100px;
+    max-width: 90px;
+    padding: 30px 30px 30px 30px;
+}
+.css h4{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: serif;
+    letter-spacing: 0.1rem;
+}
+
+/* javascript */
+.javascript-icon{
+    max-width: 150px;
+    border-radius: 100px;
+    background: #ffffff27;
+    text-align: center;
+}
+.javascript h4{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: serif;
+    letter-spacing: 0.1rem;
+}
+.javascript-icon img{
+    border-radius: 100px;
+    max-width: 90px;
+    padding: 30px 30px 30px 30px;
+}
+
+/* photoshop*/
+.photoshop-icon{
+    max-width: 150px;
+    border-radius: 100px;
+    background: #ffffff27;
+    text-align: center;
+}
+.photoshop h4{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: serif;
+    letter-spacing: 0.1rem;
+}
+.photoshop-icon img{
+    border-radius: 100px;
+    max-width: 110px;
+    padding: 30px 0;
+}
+/* Second Page */
+
+.Project-head{
+    text-align: center;
+    font-family: monospace;
+    font-size: 39px;
+    padding-top: 80px;
+}
+
+.Project-head::after{
+    content: " ";
+    display: block;
+    height: 3px;
+    background-color: skyblue;
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 9px;
+}
+
+/* 24K Deluxe */
+.deluxe_header {
+    width: 100%;
+    max-width: 600px;
+}
+.deluxe_footer{
+    width: 100%;
+    max-width: 600px;
+}
+.deluxe-footer_header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.deluxe-content{
+    padding: 30px 0 0 35px;
+}
+.deluxe-content h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.deluxe-content p{
+    max-width: 600px;
+    padding-top: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Blog */
+.blog_header {
+    width: 100%;
+    max-width: 600px;
+}
+.blog_footer{
+    width: 100%;
+    max-width: 600px;
+}
+.blog-footer_header{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.blog-content{
+    padding-left: 35px;
+}
+.blog-content h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.blog-content p{
+    max-width: 600px;
+    padding-top: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Audiophile */
+.audiophile_header {
+    width: 100%;
+    max-width: 600px;
+}
+.audiophile_footer{
+    width: 100%;
+    max-width: 600px;
+}
+.audiophile-footer_header{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.audiophile-content{
+    padding: 30px 0 0 35px;
+}
+.audiophile-content h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.audiophile-content p{
+    max-width: 600px;
+    padding-top: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* About me */
+#about-section{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 70px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+#about-section h2{
+    padding-bottom: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#about-section h3{
+    padding-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#about-section p{
+    max-width: 600px;
+    line-height: 1.7rem;
+}
+#about-section img{
+    max-width: 300px;
+    border-radius: 10px;
+    padding-right: 40px;
+}
+
+.form__section{
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    padding-top: 30px;
+}
+.form__content h3{
+    font-size: 35px;
+}
+.form__content p{
+    max-width: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+.form__input input{
+    font-size: 17px;
+    border: 1px solid rgb(238, 199, 128);
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 400px;
+    background-color: transparent;
+    color: #fff;
+}
+.form__input textarea{
+    font-size: 17px;
+    border: 1px solid rgb(238, 199, 128);
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 400px;
+    background-color: transparent;
+    color: #fff;
+}
+.form_submit{
+    padding: 15px 50px;
+    text-align: center;
+    background: transparent;
+    font-size: 20px;
+    border: 1px solid rgb(238, 199, 128);
+    border-radius: 12px 0 10px;
+    cursor: pointer;
+}
+.form_submit:hover{
+    background: #6d6d6d;
+}
+
+/* footer */
+.foot-content{
+    background-color: #1b1b1b;
+    height: 27vh;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  
+}
+.Community,.Companies,.enterprise{
+    line-height: 1.8em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+.Community-first,.Companies-first,.enterprise-first{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+}
+
+ .container-Logo{
+    margin-right: 600px;
+    margin-left: 60px;
+    text-decoration: none;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: skyblue;
+ }
+ .Social-links{
+    display: flex;
+    justify-content:right;
+    padding-right: 26px;
+    background: #1b1b1b;
+ }
+ .Social-links a{
+    padding-right: 9px;
+    padding-top: 7px;
+    text-decoration: none;
+ }
+
+ /* RESPONSIVENESS */
+@media (max-width: 1024px) {
+  .webpage-one {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  #box{
+    margin-top: 30px;
+  }
+   #box img{
+    padding-left: 15px;
+   }
+   .btn-Hire{
+    max-width: 200px;
+}
+  .content {
+    padding: 0;
+    text-align: center;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .deluxe-footer_header,
+  .blog-footer_header,
+  .audiophile-footer_header {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .form__input{
+    margin-top: 20px;
+  }
+
+  .deluxe-content,
+  .blog-content,
+  .audiophile-content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  #about-section {
+    flex-direction: column;
+    margin-left: 0;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about__image img {
+    margin-bottom: 20px;
+  }
+
+  .form__section {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .form__input input,
+  .form__input textarea {
+    width: 90%;
+  }
+
+  .foot-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    height: auto;
+    padding: 20px;
+  }
+
+  .container-Logo {
+    margin: 0 auto;
+  }
+
+  .Social-links {
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .content h1 {
+    font-size: 24px;
+  }
+  .main{
+    background: #081b29;
+    height: 1020vh;
+}
+
+  .User {
+    font-size: 26px;
+  }
+
+  .content h3 {
+    font-size: 18px;
+  }
+
+  .btn-Hire,
+  .btn-talk {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  #box img {
+    max-width: 90%;
+  }
+
+  .form__content h3 {
+    font-size: 26px;
+  }
+
+  .form_submit {
+    width: 100%;
+    padding: 10px;
+  }
+}
+.deluxe_header-image img{
+    width: 100%;
+}
